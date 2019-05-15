@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Surveyval_20190514"
         mc:Ignorable="d"
-        Title="Surveyval" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Surveyval" Height="450" Width="720.927" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="224*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="buttonManager" Content="Fragebogen-Manager" Margin="40,40,142,0" Height="20" VerticalAlignment="Top" Click="ButtonManager_Click"/>
+
     </Grid>
 </Window>

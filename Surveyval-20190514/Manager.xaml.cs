@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Surveyval_20190514
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Manager.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Manager : Window
     {
-        public MainWindow()
+        public Manager()
         {
             InitializeComponent();
-        }
-
-        private void ButtonManager_Click(object sender, RoutedEventArgs e)
-        {
-            Manager dlgManager = new Manager();
-
-            dlgManager.ShowDialog();
         }
     }
 }
