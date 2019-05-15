@@ -9,14 +9,14 @@
     <Grid>
         <GroupBox x:Name="groupBox" Header="Fragebogenkatalog" Height="200" Margin="10,10,10,0" VerticalAlignment="Top">
             <Grid>
-                <ListBox x:Name="listBox" Margin="10,10,10,35"/>
+                <ListBox x:Name="listBoxFrageboegen" Margin="10,10,10,35"/>
                 <Button x:Name="button" Content="Neuer Fragebogen" Margin="0,0,145,8" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120"/>
                 <Button x:Name="button1" Content="Fragebogen löschen" Margin="622,150,10,8"/>
             </Grid>
         </GroupBox>
         <GroupBox x:Name="groupBox1" Header="Fragenkatalog" HorizontalAlignment="Left" Height="203" Margin="10,227,0,0" VerticalAlignment="Top" Width="774">
             <Grid Margin="0">
-                <ListBox x:Name="listBox1" Margin="10,10,10,35"/>
+                <ListBox x:Name="listBoxFragen" Margin="10,10,10,35"/>
                 <Button x:Name="button2" Content="Neue Frage" Margin="0,0,105,6" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"/>
                 <Button x:Name="button3" Content="Frage löschen" Margin="0,0,10,6" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90"/>
             </Grid>
