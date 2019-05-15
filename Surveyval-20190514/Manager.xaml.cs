@@ -23,5 +23,10 @@ namespace Surveyval_20190514
         {
             InitializeComponent();
         }
+
+        private void Button4_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
